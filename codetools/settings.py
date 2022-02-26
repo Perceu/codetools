@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'codetools.core',
     'codetools.lorem',
     'codetools.knowledge',
+    'codetools.texttools',
     'codetools.help',
 ]
 

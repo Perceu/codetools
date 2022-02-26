@@ -26,11 +26,25 @@
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   {% block script %}
   {% endblock %}
+  
+  {% if media %}
+    {% for js in media.js %}
+      <script src="{% static js %}"></script>
+    {% endfor %}
+    {% for babel in media.babels %}
+      <script src="{% static babel %}" type="text/babel"></script>
+    {% endfor %}
+  {% endif %}
+
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V18NPW66SS"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'G-V18NPW66SS');
   </script>
