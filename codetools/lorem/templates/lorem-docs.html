@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+<div class="px-4 py-5 my-5">
+    <div class="container">
+
+        <p class="text-muted text-center"> 
+            Que tal ter um documentos de sample a 1 click de distancia ?
+        </p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Sample PDF</h5>
+                        <hr>
+                        <form action="{% url 'lorem:pdf' %}" target="_blank" class="text-end">
+                            <button type="submit" class="btn btn-primary">
+                                Download
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Sample DOC</h5>
+                        <hr>
+                        <form action="{% url 'lorem:doc' %}" target="_blank" class="text-end">
+                            <button type="submit" class="btn btn-primary">
+                                Download
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Sample XLSX</h5>
+                        <hr>
+                        <form action="{% url 'lorem:xlsx' %}" target="_blank" class="text-end">
+                            <button type="submit" class="btn btn-primary">
+                                Download
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h6>Links Uteis</h6>
+        {% include 'components/links-uteis.html' with links=links_uteis %}
+    </div>
+</div>
+{% endblock %}

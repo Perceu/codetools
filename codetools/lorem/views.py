@@ -1,11 +1,16 @@
 import io
 import json
-from django.http.response import JsonResponse
-from django.shortcuts import render, HttpResponse, resolve_url
-from django.conf import settings
-from PIL import Image, ImageDraw, ImageFont
-from faker import Faker
 import base64
+
+from django.http.response import JsonResponse, FileResponse
+from django.shortcuts import render, HttpResponse
+from django.conf import settings
+
+from faker import Faker
+from PIL import Image, ImageDraw, ImageFont
+from codetools.lorem.reports.sample_pdf import SamplePdf
+from codetools.lorem.reports.sample_doc import sampleDoc
+from codetools.lorem.reports.sample_xlsx import sampleXls
 
 def lorem_ipsum(request):
     fake = Faker('pt_BR')
@@ -75,3 +80,39 @@ def lorem_pixel_index(request):
     }
     
     return render(request, "lorem-pixel.html", context)
+
+def lorem_docs_index(request):
+    with open(f"{settings.BASE_DIR}/codetools/lorem/json/lorem_docs.json") as db_json:
+        links_uteis = json.loads(db_json.read())
+
+    context = {
+        "links_uteis": links_uteis,
+    }
+
+    return render(request, "lorem-docs.html", context)
+
+def lorem_pdf(request):
+    pdf = SamplePdf('P', 'mm', 'A4')
+    pdf.alias_nb_pages()
+    pdf.add_page()
+    pdf.ln(5)
+    pdf.cell(0, 10, 'Code Tools v {}'.format(settings.APP_VERSION), 0, 1)
+    pdf.cell(0, 5, 'Documento gerado como sample de PDF. ', 0, 1)
+    pdf.cell(0, 5, 'Para mais informações visite:', 0, 1)
+    pdf.write(5, 'codetools.com.br', 'http://codetools.com.br')
+    response = HttpResponse(pdf.output(dest='S').encode('latin-1'))
+    response['Content-Type'] = 'application/pdf'
+    return response
+
+def lorem_excel(request):
+    doc = sampleXls()
+    response = HttpResponse(doc, content_type="application/xlsx")
+    response['Content-Disposition'] = 'inline; filename="sample.xlsx"'
+    return response
+
+def lorem_doc(request):
+    doc = sampleDoc()
+    doc_stream = doc.getvalue()
+    response = HttpResponse(doc_stream, content_type="application/docx")
+    response['Content-Disposition'] = 'inline; filename="sample.docx"'
+    return response

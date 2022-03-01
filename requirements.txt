@@ -4,3 +4,6 @@ Django==4.0.2
 python-decouple==3.5
 Faker==11.1.0
 Pillow==9.0.0
+python-docx==0.8.11
+fpdf
+openpyxl
