@@ -3,7 +3,7 @@ dj-database-url==0.5.0
 Django==4.0.2
 python-decouple==3.5
 Faker==11.1.0
-Pillow==9.0.0
+Pillow==9.0.1
 python-docx==0.8.11
 fpdf
 openpyxl
