@@ -1,4 +1,4 @@
 Title: TinyDB
-Date: 2023-12-01 15:07:49.474219
+Date: 2023-12-01 15:50:31.279514
 Category: databases
 Link: https://tinydb.readthedocs.io/en/latest/

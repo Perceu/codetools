@@ -14,15 +14,16 @@
             </svg>
             <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
                 <div class="d-flex justify-content-between">
-                    <strong class="text-gray-dark">{{categoria|title}}</strong>
+                    <strong class="text-gray-dark">
+                        <a href="{{categoria.url}}">
+                            {{categoria|title}}
+                        </a>
+                    </strong>
                     <a href="{{categoria.url}}">Visitar itens da categoria.</a>
                 </div>
             </div>
         </div>
         {% endfor %}
-        <small class="d-block text-end mt-3">
-            <a href="#">Todas Categorias</a>
-        </small>
     </div>
 </main>
 {% endblock %}
