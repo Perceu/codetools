@@ -35,6 +35,10 @@
         "9": {
             "title": "Radix UI",
             "link": "https://www.radix-ui.com/"
+        },
+        "10": {
+            "title": "Grapes JS",
+            "link": "https://grapesjs.com/"
         }
     }
 }
