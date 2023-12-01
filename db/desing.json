@@ -1,0 +1,20 @@
+{
+    "_default": {
+        "1": {
+            "title": "Material",
+            "link": "https://m3.material.io/"
+        },
+        "2": {
+            "title": "Apple desing models",
+            "link": "https://developer.apple.com/design/resources/"
+        },
+        "3": {
+            "title": "Fluent desing",
+            "link": "https://fluent2.microsoft.design/"
+        },
+        "4": {
+            "title": "StoryBook Show Case",
+            "link": "https://storybook.js.org/showcase"
+        }
+    }
+}

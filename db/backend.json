@@ -1,0 +1,36 @@
+{
+    "_default": {
+        "1": {
+            "title": "Django",
+            "link": "https://www.djangoproject.com/",
+            "docker": "https://github.com/docker/awesome-compose/tree/master/django"
+        },
+        "2": {
+            "title": "flask",
+            "link": "https://flask.palletsprojects.com/en/3.0.x/",
+            "docker": "https://github.com/docker/awesome-compose/tree/master/flask"
+        },
+        "3": {
+            "title": "FastApi",
+            "link": "https://fastapi.tiangolo.com/",
+            "docker": "https://github.com/docker/awesome-compose/tree/master/fastapi"
+        },
+        "4": {
+            "title": "Startlette",
+            "link": "https://www.starlette.io/"
+        },
+        "5": {
+            "title": "Laravel",
+            "link": "https://laravel.com/"
+        },
+        "6": {
+            "title": "Slim Framework",
+            "link": "https://www.slimframework.com/"
+        },
+        "7": {
+            "title": "Cake PHP",
+            "link": "https://cakephp.org/",
+            "deploy": "https://book.cakephp.org/5/en/deployment.html#deployment"
+        }
+    }
+}

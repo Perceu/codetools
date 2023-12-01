@@ -1,0 +1,34 @@
+{
+    "_default": {
+        "1": {
+            "title": "PostgresSQL",
+            "link": "https://www.postgresql.org/",
+            "docker": "https://hub.docker.com/_/postgres"
+        },
+        "2": {
+            "title": "MariaDB",
+            "link": "https://mariadb.org/",
+            "docker": "https://hub.docker.com/_/mariadb"
+        },
+        "3": {
+            "title": "MongoDB",
+            "link": "https://www.mongodb.com/",
+            "docker": "https://hub.docker.com/_/mongo"
+        },
+        "4": {
+            "title": "InfluxDB",
+            "link": "https://www.influxdata.com/",
+            "docker": "https://hub.docker.com/_/influxdb"
+        },
+        "5": {
+            "title": "TinyDB",
+            "link": "https://tinydb.readthedocs.io/en/latest/",
+            "docker": "-"
+        },
+        "6": {
+            "title": "Druid",
+            "link": "https://druid.apache.org",
+            "docker": "-"
+        }
+    }
+}

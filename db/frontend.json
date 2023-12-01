@@ -1,0 +1,34 @@
+{
+    "_default": {
+        "1": {
+            "title": "Angular",
+            "link": "https://angular.io/",
+            "docker": "https://github.com/docker/awesome-compose/tree/master/angular"
+        },
+        "2": {
+            "title": "React",
+            "link": "https://react.dev/",
+            "docker": "https://github.com/docker/awesome-compose/tree/master/react-nginx"
+        },
+        "3": {
+            "title": "Vue JS",
+            "link": "https://vuejs.org/",
+            "docker": "https://github.com/docker/awesome-compose/tree/master/vuejs"
+        },
+        "4": {
+            "title": "Jquery",
+            "link": "https://jquery.com/",
+            "docker": ""
+        },
+        "5": {
+            "title": "Jquery",
+            "link": "https://jquery.com/",
+            "docker": ""
+        },
+        "6": {
+            "title": "Svelte",
+            "link": "https://svelte.dev/",
+            "docker": ""
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "_default": {
+        "1": {
+            "title": "C3 js",
+            "link": "https://c3js.org/"
+        },
+        "2": {
+            "title": "Plotly JS",
+            "link": "https://plotly.com/javascript/",
+            "docker": "https://github.com/docker/awesome-compose/tree/master/flask"
+        },
+        "3": {
+            "title": "D3 js",
+            "link": "https://d3js.org/"
+        },
+        "4": {
+            "title": "Charts",
+            "link": "https://www.chartjs.org/"
+        },
+        "5": {
+            "title": "Apache eCharts",
+            "link": "https://echarts.apache.org/en/index.html"
+        }
+    }
+}

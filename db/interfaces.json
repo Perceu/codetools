@@ -1,0 +1,40 @@
+{
+    "_default": {
+        "1": {
+            "title": "Angular Material",
+            "link": "https://material.angular.io/"
+        },
+        "2": {
+            "title": "Material UI React",
+            "link": "https://mui.com/"
+        },
+        "3": {
+            "title": "Vuetify",
+            "link": "https://vuetifyjs.com/en/"
+        },
+        "4": {
+            "title": "Boostrap",
+            "link": "https://getbootstrap.com/"
+        },
+        "5": {
+            "title": "Foundation",
+            "link": "https://get.foundation/"
+        },
+        "6": {
+            "title": "Ant Desing",
+            "link": "https://ant.design"
+        },
+        "7": {
+            "title": "Tailwind",
+            "link": "https://tailwindcss.com/"
+        },
+        "8": {
+            "title": "Chakra UI",
+            "link": "https://chakra-ui.com/getting-started"
+        },
+        "9": {
+            "title": "Radix UI",
+            "link": "https://www.radix-ui.com/"
+        }
+    }
+}

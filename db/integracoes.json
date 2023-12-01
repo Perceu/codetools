@@ -1,0 +1,19 @@
+{
+    "_default": {
+        "1": {
+            "title": "Airbyte",
+            "link": "https://airbyte.com/",
+            "docker": "https://docs.airbyte.com/deploying-airbyte/local-deployment"
+        },
+        "2": {
+            "title": "Airflow",
+            "link": "https://airflow.apache.org/",
+            "docker": "https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html"
+        },
+        "3": {
+            "title": "",
+            "link": "https://luigi.readthedocs.io/en/stable/#",
+            "docker": "-"
+        }
+    }
+}
