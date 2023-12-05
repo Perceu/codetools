@@ -29,6 +29,21 @@
             "title": "Druid",
             "link": "https://druid.apache.org",
             "docker": "-"
+        },
+        "7": {
+            "title": "Supabase",
+            "link": "https://supabase.com/",
+            "docker": "-"
+        },
+        "8": {
+            "title": "Pocketbase",
+            "link": "https://pocketbase.io/",
+            "docker": "-"
+        },
+        "9": {
+            "title": "MySql",
+            "link": "https://www.mysql.com/",
+            "docker": "-"
         }
     }
 }

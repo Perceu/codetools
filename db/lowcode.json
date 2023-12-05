@@ -1,0 +1,17 @@
+{
+    "_default": {
+        "1": {
+            "title": "Budi Base",
+            "link": "https://budibase.com/"
+        },
+        "2": {
+            "title": "Streamlit",
+            "link": "https://streamlit.io/"
+        },
+        "3": {
+            "title": "Outsystems",
+            "link": "https://www.outsystems.com/"
+        }
+        
+    }
+}

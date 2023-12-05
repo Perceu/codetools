@@ -1,0 +1,24 @@
+{
+    "_default": {
+        "1": {
+            "title": "VS Code",
+            "link": "https://code.visualstudio.com/"
+        },
+        "2": {
+            "title": "Vim",
+            "link": "https://www.vim.org/"
+        },
+        "3": {
+            "title": "Helix",
+            "link": "https://helix-editor.com/"
+        },
+        "4": {
+            "title": "Emacs",
+            "link": "https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html"
+        },
+        "5": {
+            "title": "Jetbrains Editors",
+            "link": "https://www.jetbrains.com/"
+        }
+    }
+}

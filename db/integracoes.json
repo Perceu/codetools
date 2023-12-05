@@ -14,6 +14,10 @@
             "title": "Luigi",
             "link": "https://luigi.readthedocs.io/en/stable/#",
             "docker": "-"
+        },
+        "4": {
+            "title": "Dolphin Scheduler",
+            "link": "https://dolphinscheduler.apache.org"
         }
     }
 }
