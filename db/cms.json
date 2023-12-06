@@ -2,23 +2,29 @@
     "_default": {
         "1": {
             "title": "Plone",
-            "link": "https://plone.org/"
+            "link": "https://plone.org/",
+            "description": "Gerenciador de conteudo em python"
         },
         "2": {
             "title": "Wordpress",
-            "link": "https://wordpress.org/download/"
+            "link": "https://wordpress.org/download/",
+            "description": "Gerenciador de conteudo em PHP"
         },
         "3": {
             "title": "Django CMS",
-            "link": "https://www.django-cms.org/"
+            "link": "https://www.django-cms.org/",
+            "description": "Componente django para gerenciar conteudo de sites"
         },
         "4": {
             "title": "Wagtail",
-            "link": "https://wagtail.org/"
+            "link": "https://wagtail.org/",
+            "description": "Componente django para gerenciar conteudo de sites"
         },
         "5": {
             "title": "Strapi",
-            "link": "https://strapi.io/"
+            "link": "https://strapi.io/",
+            "docker": "https://docs.strapi.io/dev-docs/installation/docker",
+            "description": "CMS baseado em APIS para simplificar o gerenciamento do seus conteudos"
         }
     }
 }

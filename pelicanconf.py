@@ -1,9 +1,15 @@
 AUTHOR = 'Perceu G. Bertoletti'
 SITENAME = 'CodeTools'
-APP_VERSION = '0.0.10'
+APP_VERSION = '1.0.0    '
 SITEURL = ""
 
 PATH = "content"
+
+ARTICLE_PATHS = [
+    '.',
+    "../textos", 
+    "../scripts", 
+]
 
 TIMEZONE = 'America/Sao_Paulo'
 

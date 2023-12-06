@@ -1,5 +1,5 @@
 Title: Plotly JS
-Date: 2023-12-05 21:57:43.031326
+Date: 2023-12-06 18:15:03.358695
 Category: charts
 Link: https://plotly.com/javascript/
-Docker: https://github.com/docker/awesome-compose/tree/master/flask
+Biblioteca javascript para graficos, a mesma lib utilizada pelo dash

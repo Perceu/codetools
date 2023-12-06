@@ -1,0 +1,7 @@
+.card.card-over {
+    transition: 0.5s all;
+}
+.card.card-over:hover {
+    background: aliceblue;
+    transition: 0.5s all;
+}

@@ -45,12 +45,14 @@
         "8": {
             "title": "Pocketbase",
             "link": "https://pocketbase.io/",
-            "docker": "https://pocketbase.io/docs/going-to-production/"
+            "docker": "https://pocketbase.io/docs/going-to-production/",
+            "description": "Banco de dados realtime, alternativa ao firebase"
         },
         "9": {
             "title": "MySql",
             "link": "https://www.mysql.com/",
-            "docker": "https://hub.docker.com/_/mysql"
+            "docker": "https://hub.docker.com/_/mysql",
+            "description": "Banco de dados relacional"
         }
     }
 }

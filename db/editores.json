@@ -2,23 +2,33 @@
     "_default": {
         "1": {
             "title": "VS Code",
-            "link": "https://code.visualstudio.com/"
+            "link": "https://code.visualstudio.com/",
+            "description": "Editor de textos simples desenvolvido pela microsoft"
         },
         "2": {
             "title": "Vim",
-            "link": "https://www.vim.org/"
+            "link": "https://www.vim.org/",
+            "description": "Editor de texto versatil e com muitos adeptos"
         },
         "3": {
             "title": "Helix",
-            "link": "https://helix-editor.com/"
+            "link": "https://helix-editor.com/",
+            "description": "Editor de texto versatil com uma proposta parecida com emacs e vim, desenvolvido em rust"
         },
         "4": {
             "title": "Emacs",
-            "link": "https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html"
+            "link": "https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html",
+            "description": "Editor de texto versatil e com muitos adeptos"
         },
         "5": {
             "title": "Jetbrains Editors",
-            "link": "https://www.jetbrains.com/"
+            "link": "https://www.jetbrains.com/",
+            "description": "A jetbrains faz muitos editores para diversas linguagens estou indexando aqui para simplificar"
+        },
+        "6": {
+            "title": "Eclipse IDE",
+            "link": "https://eclipseide.org/",
+            "description": "Eclipse é um editor famoso no mundo do java mas é muito versatil para diversas linguagens"
         }
     }
 }

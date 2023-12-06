@@ -1,5 +1,5 @@
 Title: Potly
-Date: 2023-12-05 21:57:43.036689
+Date: 2023-12-06 18:15:03.364144
 Category: dashboard
 Link: https://plotly.com/python/
-Docker: 
+Biblioteca de python para criação simplificada de dashboards

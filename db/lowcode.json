@@ -2,15 +2,20 @@
     "_default": {
         "1": {
             "title": "Budi Base",
-            "link": "https://budibase.com/"
+            "link": "https://budibase.com/",
+            "docker": "https://docs.budibase.com/docs/docker",
+            "description": "Ferramenta low code de construsão de sistemas"
         },
         "2": {
             "title": "Streamlit",
-            "link": "https://streamlit.io/"
+            "link": "https://streamlit.io/",
+            "docker": "https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker",
+            "description": "Ferramenta low code de construsão de sistemas"
         },
         "3": {
             "title": "Outsystems",
-            "link": "https://www.outsystems.com/"
+            "link": "https://www.outsystems.com/",
+            "description": "Ferramenta low code de construsão de sistemas"
         }
         
     }

@@ -1,4 +1,5 @@
 Title: Startlette
-Date: 2023-12-05 21:57:43.034928
+Date: 2023-12-06 18:15:03.361565
 Category: backend
 Link: https://www.starlette.io/
+Micro-Framework web ideal para paginas pequenas e prototipos

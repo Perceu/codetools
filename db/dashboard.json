@@ -3,22 +3,19 @@
         "1": {
             "title": "Metabase",
             "link": "https://www.metabase.com/",
-            "docker": "https://www.metabase.com/docs/latest/installation-and-operation/running-metabase-on-docker"
+            "docker": "https://www.metabase.com/docs/latest/installation-and-operation/running-metabase-on-docker",
+            "description": "Sistema de dashboards de facil integração e simplificado para criação e desing de dashboards"
         },
         "2": {
             "title": "Superset",
             "link": "https://superset.apache.org/",
-            "docker": "https://superset.apache.org/docs/installation/installing-superset-using-docker-compose/"
+            "docker": "https://superset.apache.org/docs/installation/installing-superset-using-docker-compose/",
+            "description": "Sistema de dashboards alternativa ao powerBI"
         },
         "3": {
-            "title": "Grafana-dashboard",
-            "link": "https://grafana.com/grafana/",
-            "docker": "https://grafana.com/docs/grafana/latest/setup-grafana/installation/docker/"
-        },
-        "4": {
             "title": "Potly",
             "link": "https://plotly.com/python/",
-            "docker": ""
+            "description": "Biblioteca de python para criação simplificada de dashboards"
         }
     }
 }

@@ -1,5 +1,5 @@
 Title: Jquery
-Date: 2023-12-05 21:57:43.033456
+Date: 2023-12-06 18:15:03.359475
 Category: frontend
 Link: https://jquery.com/
-Docker: 
+Biblioteca para simplificação e escrita multibrowser de javascript

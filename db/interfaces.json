@@ -2,43 +2,53 @@
     "_default": {
         "1": {
             "title": "Angular Material",
-            "link": "https://material.angular.io/"
+            "link": "https://material.angular.io/",
+            "description": "Conjunto de componentes angular, seguindo as guidelines do material desing"
         },
         "2": {
             "title": "Material UI React",
-            "link": "https://mui.com/"
+            "link": "https://mui.com/",
+            "description": "Conjunto de componentes react, seguindo as guidelines do material desing"
         },
         "3": {
             "title": "Vuetify",
-            "link": "https://vuetifyjs.com/en/"
+            "link": "https://vuetifyjs.com/en/",
+            "description": "Conjunto de componentes vue, seguindo as guidelines do material desing"
         },
         "4": {
             "title": "Boostrap",
-            "link": "https://getbootstrap.com/"
+            "link": "https://getbootstrap.com/",
+            "description": "Framework css/sass de componentes"
         },
         "5": {
             "title": "Foundation",
-            "link": "https://get.foundation/"
+            "link": "https://get.foundation/",
+            "description": "Framework css/sass de componentes"
         },
         "6": {
             "title": "Ant Desing",
-            "link": "https://ant.design"
+            "link": "https://ant.design",
+            "description": "Framework css de componentes"
         },
         "7": {
             "title": "Tailwind",
-            "link": "https://tailwindcss.com/"
+            "link": "https://tailwindcss.com/",
+            "description": "Framework css/sass de componentes"
         },
         "8": {
             "title": "Chakra UI",
-            "link": "https://chakra-ui.com/getting-started"
+            "link": "https://chakra-ui.com/getting-started",
+            "description": "Biblioteca de components react"
         },
         "9": {
             "title": "Radix UI",
-            "link": "https://www.radix-ui.com/"
+            "link": "https://www.radix-ui.com/",
+            "description": "Biblioteca de components react"
         },
         "10": {
             "title": "Grapes JS",
-            "link": "https://grapesjs.com/"
+            "link": "https://grapesjs.com/",
+            "description": "Component javascript para gerar html"
         }
     }
 }

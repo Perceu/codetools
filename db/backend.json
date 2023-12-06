@@ -3,34 +3,41 @@
         "1": {
             "title": "Django",
             "link": "https://www.djangoproject.com/",
-            "docker": "https://github.com/docker/awesome-compose/tree/master/django"
+            "docker": "https://github.com/docker/awesome-compose/tree/master/django",
+            "description": "Framework web para perfecionistas com prazo"
         },
         "2": {
             "title": "flask",
             "link": "https://flask.palletsprojects.com/en/3.0.x/",
-            "docker": "https://github.com/docker/awesome-compose/tree/master/flask"
+            "docker": "https://github.com/docker/awesome-compose/tree/master/flask",
+            "description": "Micro-Framework web ideal para paginas pequenas e prototipos"
         },
         "3": {
             "title": "FastApi",
             "link": "https://fastapi.tiangolo.com/",
-            "docker": "https://github.com/docker/awesome-compose/tree/master/fastapi"
+            "docker": "https://github.com/docker/awesome-compose/tree/master/fastapi",
+            "description": "Framework para apis, que gera swagger e redoc com simplicidade"
         },
         "4": {
             "title": "Startlette",
-            "link": "https://www.starlette.io/"
+            "link": "https://www.starlette.io/",
+            "description": "Micro-Framework web ideal para paginas pequenas e prototipos"
         },
         "5": {
             "title": "Laravel",
-            "link": "https://laravel.com/"
+            "link": "https://laravel.com/",
+            "description": "Framework PHP completo para desenvolvimento de sistemas e gerenciadores de conteudo"
         },
         "6": {
             "title": "Slim Framework",
-            "link": "https://www.slimframework.com/"
+            "link": "https://www.slimframework.com/",
+            "description": "Micro-Framework web ideal para paginas pequenas e prototipos"
         },
         "7": {
             "title": "Cake PHP",
             "link": "https://cakephp.org/",
-            "deploy": "https://book.cakephp.org/5/en/deployment.html#deployment"
+            "deploy": "https://book.cakephp.org/5/en/deployment.html#deployment",
+            "description": "Framework PHP completo para desenvolvimento de sistemas e gerenciadores de conteudo"
         }
     }
 }

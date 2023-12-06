@@ -13,9 +13,6 @@ def build(cat):
             file.write(f"Date: {datetime.now()}\n")
             file.write(f"Category: {cat}\n")
             file.write(f"Link: {i['link']}\n")
-            print(i.get('docker') is not None)
-            print(i.get('description') is not None)
-            print('-------------')
             if i.get('docker') is not None:
                 file.write(f"Docker: {i['docker']}\n")
             if i.get('description') is not None:

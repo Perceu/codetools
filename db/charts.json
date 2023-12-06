@@ -1,25 +1,24 @@
 {
     "_default": {
         "1": {
-            "title": "C3 js",
-            "link": "https://c3js.org/"
-        },
-        "2": {
             "title": "Plotly JS",
             "link": "https://plotly.com/javascript/",
-            "docker": "https://github.com/docker/awesome-compose/tree/master/flask"
+            "description": "Biblioteca javascript para graficos, a mesma lib utilizada pelo dash"
+        },
+        "2": {
+            "title": "D3 js",
+            "link": "https://d3js.org/",
+            "description": "Biblioteca javascript para graficos"
         },
         "3": {
-            "title": "D3 js",
-            "link": "https://d3js.org/"
+            "title": "Charts",
+            "link": "https://www.chartjs.org/",
+            "description": "Biblioteca javascript para graficos simples e minimalistas"
         },
         "4": {
-            "title": "Charts",
-            "link": "https://www.chartjs.org/"
-        },
-        "5": {
             "title": "Apache eCharts",
-            "link": "https://echarts.apache.org/en/index.html"
+            "link": "https://echarts.apache.org/en/index.html",
+            "description": "Biblioteca javascript graficos, muito completa e robusta"
         }
     }
 }
