@@ -3,47 +3,54 @@
         "1": {
             "title": "PostgresSQL",
             "link": "https://www.postgresql.org/",
-            "docker": "https://hub.docker.com/_/postgres"
+            "docker": "https://hub.docker.com/_/postgres",
+            "description": "Banco de dados relacional"
         },
         "2": {
             "title": "MariaDB",
             "link": "https://mariadb.org/",
-            "docker": "https://hub.docker.com/_/mariadb"
+            "docker": "https://hub.docker.com/_/mariadb",
+            "description": "Banco de dados relacional"
         },
         "3": {
             "title": "MongoDB",
             "link": "https://www.mongodb.com/",
-            "docker": "https://hub.docker.com/_/mongo"
+            "docker": "https://hub.docker.com/_/mongo",
+            "description": "Banco de dados não relacional"
         },
         "4": {
             "title": "InfluxDB",
             "link": "https://www.influxdata.com/",
-            "docker": "https://hub.docker.com/_/influxdb"
+            "docker": "https://hub.docker.com/_/influxdb",
+            "description": "Banco de dados ideal para informações e parametros que tem variação conforme a passagem do tempo"
         },
         "5": {
             "title": "TinyDB",
             "link": "https://tinydb.readthedocs.io/en/latest/",
-            "docker": "-"
+            "docker": "-",
+            "description": "Banco de dados baseado em arquivo, alternativa simplificada so sqlite"
         },
         "6": {
             "title": "Druid",
             "link": "https://druid.apache.org",
-            "docker": "-"
+            "docker": "-",
+            "description": "Banco de dados ideal para informações e parametros que tem variação conforme a passagem do tempo"
         },
         "7": {
             "title": "Supabase",
             "link": "https://supabase.com/",
-            "docker": "-"
+            "docker": "https://supabase.com/docs/guides/self-hosting/docker",
+            "description": "Banco de dados realtime, alternativa ao firebase"
         },
         "8": {
             "title": "Pocketbase",
             "link": "https://pocketbase.io/",
-            "docker": "-"
+            "docker": "https://pocketbase.io/docs/going-to-production/"
         },
         "9": {
             "title": "MySql",
             "link": "https://www.mysql.com/",
-            "docker": "-"
+            "docker": "https://hub.docker.com/_/mysql"
         }
     }
 }

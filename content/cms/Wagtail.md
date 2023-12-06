@@ -1,4 +1,4 @@
 Title: Wagtail
-Date: 2023-12-01 15:50:31.281841
+Date: 2023-12-05 21:57:43.039020
 Category: cms
 Link: https://wagtail.org/

@@ -1,4 +1,4 @@
 Title: Foundation
-Date: 2023-12-01 15:50:31.269941
+Date: 2023-12-05 21:57:43.030702
 Category: interfaces
 Link: https://get.foundation/

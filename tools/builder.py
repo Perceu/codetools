@@ -13,15 +13,17 @@ def build(cat):
             file.write(f"Date: {datetime.now()}\n")
             file.write(f"Category: {cat}\n")
             file.write(f"Link: {i['link']}\n")
-            if hasattr(i, 'docker'):
+            print(i.get('docker') is not None)
+            print(i.get('description') is not None)
+            print('-------------')
+            if i.get('docker') is not None:
                 file.write(f"Docker: {i['docker']}\n")
-            if hasattr(i, 'description'):
+            if i.get('description') is not None:
                 file.write(f"{i['description']}\n")
 
 
 def build_categories():
     files = os.listdir('db')
-    print(files)
     for f in files:
         cat = f.replace('.json', '')
         build(cat)

@@ -2,7 +2,8 @@
     "_default": {
         "1": {
             "title": "Pokemon API",
-            "link": "https://pokeapi.co/"
+            "link": "https://pokeapi.co/",
+            "description": "Api para buscar pokemons"
         }
     }
 }

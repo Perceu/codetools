@@ -1,4 +1,4 @@
 Title: Django CMS
-Date: 2023-12-01 15:50:31.281713
+Date: 2023-12-05 21:57:43.038950
 Category: cms
 Link: https://www.django-cms.org/
