@@ -11,6 +11,7 @@ from pelican import main as pelican_main
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 from pelican.settings import DEFAULT_CONFIG, get_settings_from_file
 from decouple import config
+from cli.crud import app
 
 OPEN_BROWSER_ON_SERVE = True
 SETTINGS_FILE_BASE = "pelicanconf.py"
@@ -150,6 +151,10 @@ def publish(c):
 @task
 def build_data(cmd):
     builder.build_categories()
+
+@task
+def run_crud(cmd):
+    app()
 
 def pelican_run(cmd):
     cmd += " " + program.core.remainder

@@ -205,34 +205,6 @@
         </div>
     </div>
 </main>
-
-
-<div class="bd-example-snippet bd-code-snippet bd-file-ref">
-    <div class="d-flex align-items-center highlight-toolbar ps-3 pe-2 py-1 border-bottom">
-        <a class="font-monospace link-secondary link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover small"
-            href="https://github.com/twbs/bootstrap/blob/v5.3.2/scss/_alert.scss">scss/_alert.scss</a>
-        <div class="d-flex ms-auto">
-            <button type="button" class="btn-clipboard mt-0 me-0" aria-label="Copy to clipboard"
-                data-bs-original-title="Copy to clipboard">
-                <svg class="bi" aria-hidden="true">
-                    <use xlink:href="#clipboard"></use>
-                </svg>
-            </button>
-        </div>
-    </div>
-    <div class="highlight">
-        <pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="c1">// Generate contextual modifier classes for colorizing the alert
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@each</span> <span class="nv">$state</span> <span class="ow">in</span> <span class="nf">map-keys</span><span class="p">(</span><span class="nv">$theme-colors</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="nc">.alert-</span><span class="si">#{</span><span class="nv">$state</span><span class="si">}</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="na">--#{$prefix}alert-color</span><span class="o">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="si">#{</span><span class="nv">$prefix</span><span class="si">}#{</span><span class="nv">$state</span><span class="si">}</span><span class="o">-</span><span class="ni">text</span><span class="o">-</span><span class="n">emphasis</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="na">--#{$prefix}alert-bg</span><span class="o">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="si">#{</span><span class="nv">$prefix</span><span class="si">}#{</span><span class="nv">$state</span><span class="si">}</span><span class="o">-</span><span class="n">bg-subtle</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="na">--#{$prefix}alert-border-color</span><span class="o">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="si">#{</span><span class="nv">$prefix</span><span class="si">}#{</span><span class="nv">$state</span><span class="si">}</span><span class="o">-</span><span class="n">border-subtle</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="na">--#{$prefix}alert-link-color</span><span class="o">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="si">#{</span><span class="nv">$prefix</span><span class="si">}#{</span><span class="nv">$state</span><span class="si">}</span><span class="o">-</span><span class="ni">text</span><span class="o">-</span><span class="n">emphasis</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre>
-    </div>
-</div>
     <script src="/theme/js/bootstrap.bundle.min.js"></script>
     <script src="/theme/js/offcanvas-navbar.js"></script>
 </body>
