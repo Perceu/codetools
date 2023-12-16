@@ -38,6 +38,21 @@
             "link": "https://cakephp.org/",
             "deploy": "https://book.cakephp.org/5/en/deployment.html#deployment",
             "description": "Framework PHP completo para desenvolvimento de sistemas e gerenciadores de conteudo"
+        },
+        "8": {
+            "title": "Loguru",
+            "link": "https://loguru.readthedocs.io/en/stable/",
+            "description": "Biblioteca que simplifica logs"
+        },
+        "9": {
+            "title": "Pendulum",
+            "link": "https://pendulum.eustace.io/",
+            "description": "Biblioteca python para facilitar o uso dos datetime"
+        },
+        "10": {
+            "title": "thefuzz",
+            "link": "https://github.com/seatgeek/thefuzz",
+            "description": "Biblioteca python para calcular a distancia entre strings"
         }
     }
 }

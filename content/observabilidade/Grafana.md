@@ -1,5 +1,5 @@
 Title: Grafana
-Date: 2023-12-06 18:15:03.363470
+Date: 2023-12-16 00:58:23.899052
 Category: observabilidade
 Link: https://grafana.com/grafana/
 Docker: https://grafana.com/docs/grafana/latest/setup-grafana/installation/docker/

@@ -1,5 +1,5 @@
 Title: Druid
-Date: 2023-12-06 18:15:03.365480
+Date: 2023-12-16 00:58:23.904703
 Category: databases
 Link: https://druid.apache.org
 Docker: -

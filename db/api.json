@@ -24,6 +24,11 @@
             "title": "Free apis database",
             "link": "https://free-apis.github.io/",
             "description": "Banco de apis para visualizar"
+        },
+        "6": {
+            "title": "Key Cloak",
+            "link": "https://www.keycloak.org/",
+            "description": "Sistema de autenticação pronto com diversas integrações e ideal para centralizar a autenticação de varios apps."
         }
     }
 }

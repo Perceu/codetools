@@ -1,5 +1,5 @@
 Title: Strapi
-Date: 2023-12-06 18:15:03.368167
+Date: 2023-12-16 00:58:23.912869
 Category: cms
 Link: https://strapi.io/
 Docker: https://docs.strapi.io/dev-docs/installation/docker

@@ -1,5 +1,5 @@
 Title: Metabase
-Date: 2023-12-06 18:15:03.364022
+Date: 2023-12-16 00:58:23.900184
 Category: dashboard
 Link: https://www.metabase.com/
 Docker: https://www.metabase.com/docs/latest/installation-and-operation/running-metabase-on-docker

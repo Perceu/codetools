@@ -1,5 +1,5 @@
 Title: TinyDB
-Date: 2023-12-06 18:15:03.365419
+Date: 2023-12-16 00:58:23.904395
 Category: databases
 Link: https://tinydb.readthedocs.io/en/latest/
 Docker: -
