@@ -29,6 +29,16 @@
             "title": "Key Cloak",
             "link": "https://www.keycloak.org/",
             "description": "Sistema de autenticação pronto com diversas integrações e ideal para centralizar a autenticação de varios apps."
+        },
+        "7": {
+            "title": "Mockoon",
+            "link": "https://mockoon.com/",
+            "description": "Sistema para criação de mocks de api, ja integrado com faker.js e permitindo dados dinamicos via post e get"
+        },
+        "8": {
+            "title": "Rapidapi",
+            "link": "https://rapidapi.com/pt/hub",
+            "description": "Hub de apis de facil integração pois é possivel integrar todas as apis atravez de um unico painel."
         }
     }
 }

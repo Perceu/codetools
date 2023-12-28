@@ -1,6 +1,6 @@
 Title: Airbyte
-Date: 2023-12-16 00:58:23.889504
+Date: 2023-12-28 17:08:48.315119
 Category: integracoes
-Link: https://airbyte.com/
 Docker: https://docs.airbyte.com/deploying-airbyte/local-deployment
+Link: https://airbyte.com/
 Aplicação para integrações e fluxos de ETL

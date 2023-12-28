@@ -1,0 +1,22 @@
+{
+    "_default": {
+        "1": {
+            "title": "Sonarqube",
+            "link": "https://docs.sonarsource.com/sonarqube/latest/",
+            "docker": "https://hub.docker.com/_/sonarqube",
+            "description": "Sistema para analise de codigo"
+        },
+        "2": {
+            "title": "Umami",
+            "link": "https://umami.is",
+            "docker": "https://umami.is/docs/install",
+            "description": "Alternativa ao google analitcs"
+        },
+        "3": {
+            "title": "Matomo",
+            "link": "https://matomo.org/",
+            "docker": "https://github.com/matomo-org/docker/tree/master/apache",
+            "description": "Alternativa ao google analitcs"
+        }
+    }
+}

@@ -4,34 +4,52 @@
             "title": "Django",
             "link": "https://www.djangoproject.com/",
             "docker": "https://github.com/docker/awesome-compose/tree/master/django",
-            "description": "Framework web para perfecionistas com prazo"
+            "description": "Framework web para perfecionistas com prazo",
+            "tags": [
+                "python", "framework"
+            ]
         },
         "2": {
             "title": "flask",
             "link": "https://flask.palletsprojects.com/en/3.0.x/",
             "docker": "https://github.com/docker/awesome-compose/tree/master/flask",
-            "description": "Micro-Framework web ideal para paginas pequenas e prototipos"
+            "description": "Micro-Framework web ideal para paginas pequenas e prototipos",
+            "tags": [
+                "python", "micro-framework"
+            ]
         },
         "3": {
             "title": "FastApi",
             "link": "https://fastapi.tiangolo.com/",
             "docker": "https://github.com/docker/awesome-compose/tree/master/fastapi",
-            "description": "Framework para apis, que gera swagger e redoc com simplicidade"
+            "description": "Framework para apis, que gera swagger e redoc com simplicidade",
+            "tags": [
+                "python", "micro-framework"
+            ]
         },
         "4": {
             "title": "Startlette",
             "link": "https://www.starlette.io/",
-            "description": "Micro-Framework web ideal para paginas pequenas e prototipos"
+            "description": "Micro-Framework web ideal para paginas pequenas e prototipos",
+            "tags": [
+                "python", "micro-framework"
+            ]
         },
         "5": {
             "title": "Laravel",
             "link": "https://laravel.com/",
-            "description": "Framework PHP completo para desenvolvimento de sistemas e gerenciadores de conteudo"
+            "description": "Framework PHP completo para desenvolvimento de sistemas e gerenciadores de conteudo",
+            "tags": [
+                "php", "framework"
+            ]
         },
         "6": {
             "title": "Slim Framework",
             "link": "https://www.slimframework.com/",
-            "description": "Micro-Framework web ideal para paginas pequenas e prototipos"
+            "description": "Micro-Framework web ideal para paginas pequenas e prototipos",
+            "tags": [
+                "php", "micro-framework"
+            ]
         },
         "7": {
             "title": "Cake PHP",
@@ -42,17 +60,26 @@
         "8": {
             "title": "Loguru",
             "link": "https://loguru.readthedocs.io/en/stable/",
-            "description": "Biblioteca que simplifica logs"
+            "description": "Biblioteca que simplifica logs",
+            "tags": [
+                "python", "logs"
+            ]
         },
         "9": {
             "title": "Pendulum",
             "link": "https://pendulum.eustace.io/",
-            "description": "Biblioteca python para facilitar o uso dos datetime"
+            "description": "Biblioteca python para facilitar o uso dos datetime",
+            "tags": [
+                "python", "datetime"
+            ]
         },
         "10": {
             "title": "thefuzz",
             "link": "https://github.com/seatgeek/thefuzz",
-            "description": "Biblioteca python para calcular a distancia entre strings"
+            "description": "Biblioteca python para calcular a distancia entre strings",
+            "tags": [
+                "python", "Levenshtein", "text"
+            ]
         }
     }
 }

@@ -1,6 +1,6 @@
 Title: Pocketbase
-Date: 2023-12-16 00:58:23.905220
+Date: 2023-12-28 17:08:48.327675
 Category: databases
-Link: https://pocketbase.io/
 Docker: https://pocketbase.io/docs/going-to-production/
+Link: https://pocketbase.io/
 Banco de dados realtime, alternativa ao firebase

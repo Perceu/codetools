@@ -7,25 +7,68 @@
             <h1 class="display-5 fw-bold">Bem Vindo!</h1>
             <p class="col-md-8 fs-4">
                 Consulte aqui uma base de recursos uteis para desenvolvedores no geral. Temos links para as mais
-                diferentes ferramentas organizados por categorias.
+                diferentes ferramentas.
             </p>
         </div>
     </div>
-    <div class="container px-4 py-5" id="icon-grid">
-        <h2 class="pb-2 border-bottom">Categorias</h2>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-            {% for categoria, artigos in categories %}
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="{{categoria.url}}">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">{{categoria|title}}</h3>
-                    </a>
+    <div class="container" id="icon-grid">
+        <div class="row">
+            <div class="col-8">
+                {% for article in articles_page.object_list %}
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        {% if article.category != 'scripts'%}
+                        <div class="col-md-4">
+                            <img src="/images/{{article.slug}}.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        {% endif %}
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">{{article.title|title}}</h5>
+                                <p class="card-text">{{article.summary}}</p>
+                                <p class="card-text">
+                                    <a href="/{{article.url}}">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                {% endfor %}
+                <div class="text-end">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                            {% if articles_next_page %}
+                            <li class="page-item">
+                                <a class="page-link" href="/{{ articles_next_page.url }}"><< Ferramentas</a>
+                            </li>
+                            {% endif %}
+                            {% if articles_previous_page %}
+                            <li class="page-item">
+                                <a class="page-link" href="/{{ articles_previous_page.url }}">Ferramentas >></a>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </nav>
                 </div>
             </div>
-            {% endfor %}
+            <div class="col">
+                <h2>Categorias</h2>
+                <div>
+                    {% for categoria, artigos in categories %}
+                    <a type="button" href="{{categoria.url}}"
+                        class="badge rounded-pill text-bg-secondary">{{categoria|title}}</a>
+                    {% endfor %}
+                </div>
+                <hr>
+                <h2>Tags</h2>
+                <div>
+                    {% for tag, artigos in tags %}
+                    <a type="button" href="{{tag.url}}" class="badge rounded-pill text-bg-secondary">{{tag|title}}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div>
 
         </div>
     </div>

@@ -151,6 +151,10 @@ def publish(c):
 def build_data(cmd):
     builder.build_categories()
 
+@task
+def build_images(cmd):
+    builder.build_images()
+
 def pelican_run(cmd):
     cmd += " " + program.core.remainder
     pelican_main(shlex.split(cmd))

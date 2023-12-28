@@ -4,47 +4,60 @@
 <main class="container">
     <div class="px-4 py-2 mt-5 text-center">
         <h2 class="display-5 fw-bold text-body-emphasis">{{category|title}}</h2>
-        <small><a href="/">Voltar</a></small>
     </div>
 
 
     {%if category=='scripts' %}
     <div class="d-flex flex-column pa-4 gap-4">
-    {% for artigo in articles %}
-        <div class="card">
+        {% for artigo in articles %}
+        <div class="card" style="width: 18rem;">
+            <img src="/images/{{artigo.slug}}.jpeg" class="card-img-top">
             <div class="card-body">
-                <h5 class="card-title pb-1 border-bottom">{{artigo.title|title}}</h5>
-                <p class="card-text">
-                    {{artigo.summary}}
-                </p>
+                <a href="/{{artigo.url}}">
+                    <h5 class="card-title pb-1 border-bottom">{{artigo.title|title}}</h5>
+                </a>
+                <p class="card-text">{{artigo.summary}}</p>
             </div>
-            <div class="card-footer text-end">
-                <div class="d-grid gap-2 d-md-block">
-                    <a href="/{{ artigo.url }}" class="btn btn-outline-dark">Ler Completo</a>
-                </div>
-            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <a href="/{{artigo.url}}">
+                        Ler Completo
+                    </a>
+                </li>
+            </ul>
         </div>
         {% endfor %}
     </div>
     {% else %}
     <div class="d-flex flex-wrap flex-column flex-md-row p-4 gap-4 py-md-5 align-items-start">
         {% for artigo in articles %}
-
-        <div class="card" style="min-width: 18rem;width: 18rem;">
+        <div class="card" style="width: 18rem;">
+            <img src="/images/{{artigo.slug}}.jpeg" class="card-img-top">
             <div class="card-body">
-                <h5 class="card-title pb-1 border-bottom">{{artigo.title|title}}</h5>
-                <p class="card-text">
-                    {{artigo.content}}
-                </p>
+                <a href="/{{artigo.url}}">
+                    <h5 class="card-title pb-1 border-bottom">{{artigo.title|title}}</h5>
+                </a>
+                <p class="card-text">{{artigo.summary}}</p>
             </div>
-            <div class="card-footer">
-                <div class="d-grid gap-2 d-md-block">
-                    <a href="{{ artigo.link }}" target="_blank" class="btn btn-outline-dark">Site</a>
-                    {% if artigo.docker %}
-                    <a href="{{ artigo.docker }}" target="_blank" class="btn btn-light">Docker</a>
-                    {% endif %}
-                </div>
-            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <a href="/{{artigo.link}}">
+                        Site
+                    </a>
+                </li>
+                {% if artigo.docker %}
+                <li class="list-group-item">
+                    <a href="/{{artigo.docker}}">
+                        Docker
+                    </a>
+                </li>
+                {% endif %}
+                <li class="list-group-item">
+                    <a href="/{{artigo.url}}">
+                        Ler Completo
+                    </a>
+                </li>
+            </ul>
         </div>
         {% endfor %}
     </div>

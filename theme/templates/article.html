@@ -10,9 +10,28 @@
             </p>
         </div>
     </div>
-    <div class="container" >
-        <div class="row row-cols-1 py-5">
-            {{article.content}}
+    <div class="container px-4 py-5" id="icon-grid">
+        <div class="row">
+            <div class="col-8">
+                <h2 class="pb-2 border-bottom">Conteúdo</h2>
+                <img src="" alt="">
+                <div class="grid gap-4">
+                    {{article.content}}
+                </div>
+                <img src="/images/{{article.slug}}.jpeg" class="img-fluid rounded-start">
+            </div>
+            <div class="col">
+                <h2 class="pb-2 border-bottom">Links</h2>
+                <div class="grid gap-4">
+                    {% if article.link %}
+                    <a href="{{article.link}}" target="_blank" class="btn btn-lg btn-outline-secondary mb-2">Site</a>
+                    {% endif %}
+                    {% if article.docker %}
+                    <a href="{{article.docker}}" target="_blank"
+                        class="btn btn-lg btn-outline-secondary mb-2">Docker</a>
+                    {% endif %}
+                </div>
+            </div>
         </div>
     </div>
 </main>

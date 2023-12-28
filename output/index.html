@@ -12,11 +12,21 @@
 <body class="bg-body-tertiary">
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
   <div class="container-fluid">
-      <a class="navbar-brand" href="/">Codetools</a>
-      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
+    <a class="navbar-brand" href="/">Codetools</a>
+    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="/">Index</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/categories.html">Categorias</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/tags.html">Tags</a>
+      </li>
+    </ul>
   </div>
 </nav><main class="container">
     <div class="p-4 mt-4 mb-4 text-bg-dark rounded-3">
@@ -24,203 +34,330 @@
             <h1 class="display-5 fw-bold">Bem Vindo!</h1>
             <p class="col-md-8 fs-4">
                 Consulte aqui uma base de recursos uteis para desenvolvedores no geral. Temos links para as mais
-                diferentes ferramentas organizados por categorias.
+                diferentes ferramentas.
             </p>
         </div>
     </div>
-    <div class="container px-4 py-5" id="icon-grid">
-        <h2 class="pb-2 border-bottom">Categorias</h2>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/api.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Api</h3>
-                    </a>
+    <div class="container" id="icon-grid">
+        <div class="row">
+            <div class="col-8">
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/matomo.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Matomo</h5>
+                                <p class="card-text"><p>Alternativa ao google analitcs</p></p>
+                                <p class="card-text">
+                                    <a href="/matomo.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/umami.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Umami</h5>
+                                <p class="card-text"><p>Alternativa ao google analitcs</p></p>
+                                <p class="card-text">
+                                    <a href="/umami.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/sonarqube.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Sonarqube</h5>
+                                <p class="card-text"><p>Sistema para analise de codigo</p></p>
+                                <p class="card-text">
+                                    <a href="/sonarqube.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/appsmith.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Appsmith</h5>
+                                <p class="card-text"><p>Ferramenta low code de construsão de sistemas</p></p>
+                                <p class="card-text">
+                                    <a href="/appsmith.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/outsystems.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Outsystems</h5>
+                                <p class="card-text"><p>Ferramenta low code de construsão de sistemas</p></p>
+                                <p class="card-text">
+                                    <a href="/outsystems.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/streamlit.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Streamlit</h5>
+                                <p class="card-text"><p>Ferramenta low code de construsão de sistemas</p></p>
+                                <p class="card-text">
+                                    <a href="/streamlit.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/budi-base.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Budi Base</h5>
+                                <p class="card-text"><p>Ferramenta low code de construsão de sistemas</p></p>
+                                <p class="card-text">
+                                    <a href="/budi-base.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/bitbucket.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Bitbucket</h5>
+                                <p class="card-text"><p>Sistema para versionamento de codigo</p></p>
+                                <p class="card-text">
+                                    <a href="/bitbucket.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/gitness.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Gitness</h5>
+                                <p class="card-text"><p>Sistema para versionamento de codigo</p></p>
+                                <p class="card-text">
+                                    <a href="/gitness.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/github.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Github</h5>
+                                <p class="card-text"><p>Sistema para versionamento de codigo</p></p>
+                                <p class="card-text">
+                                    <a href="/github.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/gitlab.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Gitlab</h5>
+                                <p class="card-text"><p>Sistema para versionamento de codigo</p></p>
+                                <p class="card-text">
+                                    <a href="/gitlab.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/git.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Git</h5>
+                                <p class="card-text"><p>Sistema para versionamento de codigo</p></p>
+                                <p class="card-text">
+                                    <a href="/git.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/strapi.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Strapi</h5>
+                                <p class="card-text"><p>CMS baseado em APIS para simplificar o gerenciamento do seus conteudos</p></p>
+                                <p class="card-text">
+                                    <a href="/strapi.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/wagtail.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Wagtail</h5>
+                                <p class="card-text"><p>Componente django para gerenciar conteudo de sites</p></p>
+                                <p class="card-text">
+                                    <a href="/wagtail.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/django-cms.jpeg" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Django Cms</h5>
+                                <p class="card-text"><p>Componente django para gerenciar conteudo de sites</p></p>
+                                <p class="card-text">
+                                    <a href="/django-cms.html">Leia Mais >></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <div class="text-end">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="/index2.html"><< Ferramentas</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
+            <div class="col">
+                <h2>Categorias</h2>
                 <div>
-                    <a href="category/apigatway.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Apigatway</h3>
-                    </a>
+                    <a type="button" href="category/analitcs.html"
+                        class="badge rounded-pill text-bg-secondary">Analitcs</a>
+                    <a type="button" href="category/api.html"
+                        class="badge rounded-pill text-bg-secondary">Api</a>
+                    <a type="button" href="category/apigatway.html"
+                        class="badge rounded-pill text-bg-secondary">Apigatway</a>
+                    <a type="button" href="category/automation.html"
+                        class="badge rounded-pill text-bg-secondary">Automation</a>
+                    <a type="button" href="category/backend.html"
+                        class="badge rounded-pill text-bg-secondary">Backend</a>
+                    <a type="button" href="category/charts.html"
+                        class="badge rounded-pill text-bg-secondary">Charts</a>
+                    <a type="button" href="category/cms.html"
+                        class="badge rounded-pill text-bg-secondary">Cms</a>
+                    <a type="button" href="category/dashboard.html"
+                        class="badge rounded-pill text-bg-secondary">Dashboard</a>
+                    <a type="button" href="category/databases.html"
+                        class="badge rounded-pill text-bg-secondary">Databases</a>
+                    <a type="button" href="category/desing.html"
+                        class="badge rounded-pill text-bg-secondary">Desing</a>
+                    <a type="button" href="category/editores.html"
+                        class="badge rounded-pill text-bg-secondary">Editores</a>
+                    <a type="button" href="category/erp.html"
+                        class="badge rounded-pill text-bg-secondary">Erp</a>
+                    <a type="button" href="category/frontend.html"
+                        class="badge rounded-pill text-bg-secondary">Frontend</a>
+                    <a type="button" href="category/integracoes.html"
+                        class="badge rounded-pill text-bg-secondary">Integracoes</a>
+                    <a type="button" href="category/interfaces.html"
+                        class="badge rounded-pill text-bg-secondary">Interfaces</a>
+                    <a type="button" href="category/lowcode.html"
+                        class="badge rounded-pill text-bg-secondary">Lowcode</a>
+                    <a type="button" href="category/mail.html"
+                        class="badge rounded-pill text-bg-secondary">Mail</a>
+                    <a type="button" href="category/observabilidade.html"
+                        class="badge rounded-pill text-bg-secondary">Observabilidade</a>
+                    <a type="button" href="category/other.html"
+                        class="badge rounded-pill text-bg-secondary">Other</a>
+                    <a type="button" href="category/projects.html"
+                        class="badge rounded-pill text-bg-secondary">Projects</a>
+                    <a type="button" href="category/roadmaps.html"
+                        class="badge rounded-pill text-bg-secondary">Roadmaps</a>
+                    <a type="button" href="category/scripts.html"
+                        class="badge rounded-pill text-bg-secondary">Scripts</a>
+                    <a type="button" href="category/versionamento.html"
+                        class="badge rounded-pill text-bg-secondary">Versionamento</a>
+                    <a type="button" href="category/youtube.html"
+                        class="badge rounded-pill text-bg-secondary">Youtube</a>
+                </div>
+                <hr>
+                <h2>Tags</h2>
+                <div>
+                    <a type="button" href="tag/python.html" class="badge rounded-pill text-bg-secondary">Python</a>
+                    <a type="button" href="tag/levenshtein.html" class="badge rounded-pill text-bg-secondary">Levenshtein</a>
+                    <a type="button" href="tag/text.html" class="badge rounded-pill text-bg-secondary">Text</a>
+                    <a type="button" href="tag/datetime.html" class="badge rounded-pill text-bg-secondary">Datetime</a>
+                    <a type="button" href="tag/logs.html" class="badge rounded-pill text-bg-secondary">Logs</a>
+                    <a type="button" href="tag/php.html" class="badge rounded-pill text-bg-secondary">Php</a>
+                    <a type="button" href="tag/micro-framework.html" class="badge rounded-pill text-bg-secondary">Micro-Framework</a>
+                    <a type="button" href="tag/framework.html" class="badge rounded-pill text-bg-secondary">Framework</a>
                 </div>
             </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/automation.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Automation</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/backend.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Backend</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/charts.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Charts</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/cms.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Cms</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/dashboard.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Dashboard</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/databases.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Databases</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/desing.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Desing</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/editores.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Editores</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/erp.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Erp</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/frontend.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Frontend</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/integracoes.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Integracoes</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/interfaces.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Interfaces</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/lowcode.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Lowcode</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/observabilidade.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Observabilidade</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/roadmaps.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Roadmaps</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/scripts.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Scripts</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <div>
-                    <a href="category/youtube.html">
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Youtube</h3>
-                    </a>
-                </div>
-            </div>
+        </div>
+        <div>
 
         </div>
     </div>

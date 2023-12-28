@@ -1,6 +1,6 @@
 Title: Angular
-Date: 2023-12-16 00:58:23.886031
+Date: 2023-12-28 17:08:48.312213
 Category: frontend
-Link: https://angular.io/
 Docker: https://github.com/docker/awesome-compose/tree/master/angular
+Link: https://angular.io/
 Framework front-end completo para desenvolvimento de aplicações

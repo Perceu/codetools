@@ -1,6 +1,6 @@
 Title: React
-Date: 2023-12-16 00:58:23.886306
+Date: 2023-12-28 17:08:48.312410
 Category: frontend
-Link: https://react.dev/
 Docker: https://github.com/docker/awesome-compose/tree/master/react-nginx
+Link: https://react.dev/
 Biblioteca para desenvolvimento de componentes front-end

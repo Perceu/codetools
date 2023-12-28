@@ -1,0 +1,5 @@
+services:
+  splash:
+    image: scrapinghub/splash:latest
+    ports:
+      - "8050:8050"

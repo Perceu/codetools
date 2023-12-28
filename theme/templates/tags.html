@@ -1,0 +1,24 @@
+{% extends "theme/base.html" %}
+{% block body %}
+{% include "theme/menu.html" %}
+<main class="container">
+    <div class="p-4 mt-4 mb-4 text-bg-dark rounded-3">
+
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Tags</h1>
+            <p class="col-md-8 fs-4">
+                Utilize as tags para buscar e tentar achar mais facilmente a ferramenta que pode ajudar a
+                solucionar os seus problemas
+            </p>
+        </div>
+    </div>
+    <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom">Tags</h2>
+        <div class="grid gap-4">
+            {% for tag, artigos in tags %}
+                <a type="button" href="{{tag.url}}" class="btn btn-lg btn-outline-secondary mb-2">{{tag|title}}</a>
+            {% endfor %}
+        </div>
+    </div>
+</main>
+{% endblock %}

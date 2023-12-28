@@ -17,7 +17,7 @@ DEFAULT_LANG = 'pt-br'
 
 THEME="theme"
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 15
 
 
 # Uncomment following line if you want document-relative URLs when developing

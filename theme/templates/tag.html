@@ -1,0 +1,56 @@
+{% extends "theme/base.html" %}
+{% block body %}
+{% include "theme/menu.html" %}
+<main class="container">
+    <div class="px-4 py-2 mt-5 text-center">
+        <h2 class="display-5 fw-bold text-body-emphasis">{{category|title}}</h2>
+        <small><a href="/">Voltar</a></small>
+    </div>
+
+
+    {%if category=='scripts' %}
+    <div class="d-flex flex-column pa-4 gap-4">
+        {% for artigo in articles %}
+        <div class="card">
+            <div class="card-body">
+                <a href="/{{artigo.url}}">
+                    <h5 class="card-title pb-1 border-bottom">{{artigo.title|title}}</h5>
+                </a>
+                <p class="card-text">
+                    {{artigo.summary}}
+                </p>
+            </div>
+            <div class="card-footer text-end">
+                <div class="d-grid gap-2 d-md-block">
+                    <a href="/{{ artigo.url }}" class="btn btn-outline-dark">Ler Completo</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="d-flex flex-wrap flex-column flex-md-row p-4 gap-4 py-md-5 align-items-start">
+        {% for artigo in articles %}
+        <div class="card" style="min-width: 18rem;width: 18rem;">
+            <div class="card-body">
+                <a href="/{{artigo.url}}">
+                    <h5 class="card-title pb-1 border-bottom">{{artigo.title|title}}</h5>
+                </a>
+                <p class="card-text">
+                    {{artigo.summary}}
+                </p>
+            </div>
+            <div class="card-footer">
+                <div class="d-grid gap-2 d-md-block">
+                    <a href="{{ artigo.link }}" target="_blank" class="btn btn-outline-dark">Site</a>
+                    {% if artigo.docker %}
+                    <a href="{{ artigo.docker }}" target="_blank" class="btn btn-light">Docker</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</main>
+{% endblock %}

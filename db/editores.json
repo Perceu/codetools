@@ -29,6 +29,16 @@
             "title": "Eclipse IDE",
             "link": "https://eclipseide.org/",
             "description": "Eclipse é um editor famoso no mundo do java mas é muito versatil para diversas linguagens"
+        },
+        "7": {
+            "title": "Sublime text",
+            "link": "https://www.sublimetext.com/",
+            "description": "Editor de texto versatil simples e muito pratico"
+        },
+        "8": {
+            "title": "Notepad++",
+            "link": "https://notepad-plus-plus.org/",
+            "description": "Editor simples com uma boa performance"
         }
     }
 }
