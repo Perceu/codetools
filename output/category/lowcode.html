@@ -10,124 +10,148 @@
     <link href="/theme/css/custom.css" rel="stylesheet">
 </head>
 <body class="bg-body-tertiary">
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">Codetools</a>
-    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="/">CodeTools</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="/">Index</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/categories.html">Categorias</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/tags.html">Tags</a>
-      </li>
-    </ul>
-  </div>
-</nav><main class="container">
-    <div class="px-4 py-2 mt-5 text-center">
-        <h2 class="display-5 fw-bold text-body-emphasis">Lowcode</h2>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/categories.html">Categorias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/tags.html">Tags</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li> -->
+      </ul>
     </div>
+  </div>
+</nav>
 
-
-    <div class="d-flex flex-wrap flex-column flex-md-row p-4 gap-4 py-md-5 align-items-start">
-        <div class="card" style="width: 18rem;">
-            <img src="/images/appsmith.jpeg" class="card-img-top">
-            <div class="card-body">
-                <a href="/appsmith.html">
-                    <h5 class="card-title pb-1 border-bottom">Appsmith</h5>
-                </a>
-                <p class="card-text"><p>Ferramenta low code de construsão de sistemas</p></p>
+<main class="container">
+    <div class="row my-4">
+        <div class="col-12">
+            <div class="text-center">
+                <h2 class="display-5 fw-bold text-body-emphasis">Lowcode</h2>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                    <a href="/https://www.appsmith.com/">
-                        Site
-                    </a>
-                </li>
-                <li class="list-group-item">
+        </div>
+    </div>
+    <div class="row gx-4">
+        <div class="col-12 col-md-3 mb-4">
+            <div class="card">
+                <img src="/images/appsmith.jpeg" class="card-img-top">
+                <div class="card-body">
                     <a href="/appsmith.html">
-                        Ler Completo
+                        <h5 class="card-title pb-1 border-bottom">Appsmith</h5>
                     </a>
-                </li>
-            </ul>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="/images/outsystems.jpeg" class="card-img-top">
-            <div class="card-body">
-                <a href="/outsystems.html">
-                    <h5 class="card-title pb-1 border-bottom">Outsystems</h5>
-                </a>
-                <p class="card-text"><p>Ferramenta low code de construsão de sistemas</p></p>
+                    <p class="card-text"><p>Ferramenta low code de construsão de sistemas</p></p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <a href="/https://www.appsmith.com/">
+                            Site
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/appsmith.html">
+                            Ler Completo
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                    <a href="/https://www.outsystems.com/">
-                        Site
-                    </a>
-                </li>
-                <li class="list-group-item">
+        </div>
+        <div class="col-12 col-md-3 mb-4">
+            <div class="card">
+                <img src="/images/outsystems.jpeg" class="card-img-top">
+                <div class="card-body">
                     <a href="/outsystems.html">
-                        Ler Completo
+                        <h5 class="card-title pb-1 border-bottom">Outsystems</h5>
                     </a>
-                </li>
-            </ul>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="/images/streamlit.jpeg" class="card-img-top">
-            <div class="card-body">
-                <a href="/streamlit.html">
-                    <h5 class="card-title pb-1 border-bottom">Streamlit</h5>
-                </a>
-                <p class="card-text"><p>Ferramenta low code de construsão de sistemas</p></p>
+                    <p class="card-text"><p>Ferramenta low code de construsão de sistemas</p></p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <a href="/https://www.outsystems.com/">
+                            Site
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/outsystems.html">
+                            Ler Completo
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                    <a href="/https://streamlit.io/">
-                        Site
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a href="/https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker">
-                        Docker
-                    </a>
-                </li>
-                <li class="list-group-item">
+        </div>
+        <div class="col-12 col-md-3 mb-4">
+            <div class="card">
+                <img src="/images/streamlit.jpeg" class="card-img-top">
+                <div class="card-body">
                     <a href="/streamlit.html">
-                        Ler Completo
+                        <h5 class="card-title pb-1 border-bottom">Streamlit</h5>
                     </a>
-                </li>
-            </ul>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="/images/budi-base.jpeg" class="card-img-top">
-            <div class="card-body">
-                <a href="/budi-base.html">
-                    <h5 class="card-title pb-1 border-bottom">Budi Base</h5>
-                </a>
-                <p class="card-text"><p>Ferramenta low code de construsão de sistemas</p></p>
+                    <p class="card-text"><p>Ferramenta low code de construsão de sistemas</p></p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <a href="/https://streamlit.io/">
+                            Site
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker">
+                            Docker
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/streamlit.html">
+                            Ler Completo
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                    <a href="/https://budibase.com/">
-                        Site
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a href="/https://docs.budibase.com/docs/docker">
-                        Docker
-                    </a>
-                </li>
-                <li class="list-group-item">
+        </div>
+        <div class="col-12 col-md-3 mb-4">
+            <div class="card">
+                <img src="/images/budi-base.jpeg" class="card-img-top">
+                <div class="card-body">
                     <a href="/budi-base.html">
-                        Ler Completo
+                        <h5 class="card-title pb-1 border-bottom">Budi Base</h5>
                     </a>
-                </li>
-            </ul>
+                    <p class="card-text"><p>Ferramenta low code de construsão de sistemas</p></p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <a href="/https://budibase.com/">
+                            Site
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/https://docs.budibase.com/docs/docker">
+                            Docker
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/budi-base.html">
+                            Ler Completo
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </main>

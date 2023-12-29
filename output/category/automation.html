@@ -10,135 +10,161 @@
     <link href="/theme/css/custom.css" rel="stylesheet">
 </head>
 <body class="bg-body-tertiary">
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">Codetools</a>
-    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="/">CodeTools</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="/">Index</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/categories.html">Categorias</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/tags.html">Tags</a>
-      </li>
-    </ul>
-  </div>
-</nav><main class="container">
-    <div class="px-4 py-2 mt-5 text-center">
-        <h2 class="display-5 fw-bold text-body-emphasis">Automation</h2>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/categories.html">Categorias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/tags.html">Tags</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li> -->
+      </ul>
     </div>
+  </div>
+</nav>
 
-
-    <div class="d-flex flex-wrap flex-column flex-md-row p-4 gap-4 py-md-5 align-items-start">
-        <div class="card" style="width: 18rem;">
-            <img src="/images/python-autogui.jpeg" class="card-img-top">
-            <div class="card-body">
-                <a href="/python-autogui.html">
-                    <h5 class="card-title pb-1 border-bottom">Python Autogui</h5>
-                </a>
-                <p class="card-text"><p>Biblioteca automação RPA</p></p>
+<main class="container">
+    <div class="row my-4">
+        <div class="col-12">
+            <div class="text-center">
+                <h2 class="display-5 fw-bold text-body-emphasis">Automation</h2>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                    <a href="/https://pyautogui.readthedocs.io/en/latest/">
-                        Site
-                    </a>
-                </li>
-                <li class="list-group-item">
+        </div>
+    </div>
+    <div class="row gx-4">
+        <div class="col-12 col-md-3 mb-4">
+            <div class="card">
+                <img src="/images/python-autogui.jpeg" class="card-img-top">
+                <div class="card-body">
                     <a href="/python-autogui.html">
-                        Ler Completo
+                        <h5 class="card-title pb-1 border-bottom">Python Autogui</h5>
                     </a>
-                </li>
-            </ul>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="/images/robot-framework.jpeg" class="card-img-top">
-            <div class="card-body">
-                <a href="/robot-framework.html">
-                    <h5 class="card-title pb-1 border-bottom">Robot Framework</h5>
-                </a>
-                <p class="card-text"><p>Sistema de automação RPA, junto com outras integrações prontas</p></p>
+                    <p class="card-text"><p>Biblioteca automação RPA</p></p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <a href="/https://pyautogui.readthedocs.io/en/latest/">
+                            Site
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/python-autogui.html">
+                            Ler Completo
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                    <a href="/https://robotframework.org/">
-                        Site
-                    </a>
-                </li>
-                <li class="list-group-item">
+        </div>
+        <div class="col-12 col-md-3 mb-4">
+            <div class="card">
+                <img src="/images/robot-framework.jpeg" class="card-img-top">
+                <div class="card-body">
                     <a href="/robot-framework.html">
-                        Ler Completo
+                        <h5 class="card-title pb-1 border-bottom">Robot Framework</h5>
                     </a>
-                </li>
-            </ul>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="/images/cypress.jpeg" class="card-img-top">
-            <div class="card-body">
-                <a href="/cypress.html">
-                    <h5 class="card-title pb-1 border-bottom">Cypress</h5>
-                </a>
-                <p class="card-text"><p>Biblioteca de testes que pode ser usada para automações de Browser</p></p>
+                    <p class="card-text"><p>Sistema de automação RPA, junto com outras integrações prontas</p></p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <a href="/https://robotframework.org/">
+                            Site
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/robot-framework.html">
+                            Ler Completo
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                    <a href="/https://www.cypress.io/">
-                        Site
-                    </a>
-                </li>
-                <li class="list-group-item">
+        </div>
+        <div class="col-12 col-md-3 mb-4">
+            <div class="card">
+                <img src="/images/cypress.jpeg" class="card-img-top">
+                <div class="card-body">
                     <a href="/cypress.html">
-                        Ler Completo
+                        <h5 class="card-title pb-1 border-bottom">Cypress</h5>
                     </a>
-                </li>
-            </ul>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="/images/selenium.jpeg" class="card-img-top">
-            <div class="card-body">
-                <a href="/selenium.html">
-                    <h5 class="card-title pb-1 border-bottom">Selenium</h5>
-                </a>
-                <p class="card-text"><p>Biblioteca de testes que pode ser usada para automações de Browser</p></p>
+                    <p class="card-text"><p>Biblioteca de testes que pode ser usada para automações de Browser</p></p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <a href="/https://www.cypress.io/">
+                            Site
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/cypress.html">
+                            Ler Completo
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                    <a href="/https://www.selenium.dev/">
-                        Site
-                    </a>
-                </li>
-                <li class="list-group-item">
+        </div>
+        <div class="col-12 col-md-3 mb-4">
+            <div class="card">
+                <img src="/images/selenium.jpeg" class="card-img-top">
+                <div class="card-body">
                     <a href="/selenium.html">
-                        Ler Completo
+                        <h5 class="card-title pb-1 border-bottom">Selenium</h5>
                     </a>
-                </li>
-            </ul>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="/images/ui-path.jpeg" class="card-img-top">
-            <div class="card-body">
-                <a href="/ui-path.html">
-                    <h5 class="card-title pb-1 border-bottom">Ui Path</h5>
-                </a>
-                <p class="card-text"><p>Sistema de automação RPA, junto com outras integrações prontas</p></p>
+                    <p class="card-text"><p>Biblioteca de testes que pode ser usada para automações de Browser</p></p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <a href="/https://www.selenium.dev/">
+                            Site
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/selenium.html">
+                            Ler Completo
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                    <a href="/https://www.uipath.com/">
-                        Site
-                    </a>
-                </li>
-                <li class="list-group-item">
+        </div>
+        <div class="col-12 col-md-3 mb-4">
+            <div class="card">
+                <img src="/images/ui-path.jpeg" class="card-img-top">
+                <div class="card-body">
                     <a href="/ui-path.html">
-                        Ler Completo
+                        <h5 class="card-title pb-1 border-bottom">Ui Path</h5>
                     </a>
-                </li>
-            </ul>
+                    <p class="card-text"><p>Sistema de automação RPA, junto com outras integrações prontas</p></p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <a href="/https://www.uipath.com/">
+                            Site
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/ui-path.html">
+                            Ler Completo
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </main>
