@@ -10,7 +10,8 @@
                 diferentes ferramentas.
             </p>
             <p class="col-md-8 fs-4">
-                Atualmente temos <strong>{{articles | count}}</strong> documentos indexando ferramentas, artigos, canais do youtube que
+                Atualmente temos <strong>{{articles | count}}</strong> documentos indexando ferramentas, artigos, canais
+                do youtube que
                 auxilian os desenvolvedores.
             </p>
         </div>
@@ -30,8 +31,11 @@
                             <div class="card-body">
                                 <h5 class="card-title">{{article.title|title}}</h5>
                                 <p class="card-text">{{article.summary}}</p>
-                                <p class="card-text">
-                                    <a href="/{{article.url}}">Leia Mais >></a>
+                                <p class="card-text text-end">
+                                    <a href="/{{article.url}}" class="btn btn-sm btn-outline-info">
+                                        Leia Mais
+                                        <i class="bi bi-chevron-compact-right"></i>
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -43,15 +47,18 @@
                         <ul class="pagination">
                             {% if articles_previous_page %}
                             <li class="page-item">
-                                <a class="page-link" href="/{{ articles_previous_page.url }}">
+                                <a class="btn btn-sm btn-outline-success" href="/{{ articles_previous_page.url }}">
+                                    <i class="bi bi-chevron-compact-left"></i>
                                     Voltar
                                 </a>
                             </li>
                             {% endif %}
                             {% if articles_next_page %}
                             <li class="page-item">
-                                <a class="page-link" href="/{{ articles_next_page.url }}">
-                                    Outras Ferramentas </a>
+                                <a class="btn btn-sm btn-outline-success" href="/{{ articles_next_page.url }}">
+                                    Outras Ferramentas 
+                                    <i class="bi bi-chevron-compact-right"></i>
+                                </a>
                             </li>
                             {% endif %}
                         </ul>
@@ -62,15 +69,14 @@
                 <h2>Categorias</h2>
                 <div>
                     {% for categoria, artigos in categories %}
-                    <a type="button" href="{{categoria.url}}"
-                        class="badge rounded-pill text-bg-secondary">{{categoria|title}}</a>
+                    <a href="{{categoria.url}}" class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover badge rounded-pill text-bg-secondary">{{categoria|title}}</a>
                     {% endfor %}
                 </div>
                 <hr>
                 <h2>Tags</h2>
                 <div>
                     {% for tag, artigos in tags %}
-                    <a type="button" href="{{tag.url}}" class="badge rounded-pill text-bg-secondary">{{tag|title}}</a>
+                    <a href="{{tag.url}}" class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover badge rounded-pill text-bg-secondary">{{tag|title}}</a>
                     {% endfor %}
                 </div>
             </div>
