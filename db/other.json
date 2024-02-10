@@ -1,9 +1,0 @@
-{
-    "_default": {
-        "1": {
-            "title": "yourls",
-            "link": "https://yourls.org/",
-            "description": "Sistema para encurtar urls"
-        }
-    }
-}

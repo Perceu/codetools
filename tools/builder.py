@@ -2,64 +2,84 @@ import os
 import copy
 from tinydb import TinyDB
 from datetime import datetime
+from time import sleep
 from pelican.settings import DEFAULT_CONFIG
-import requests
+from selenium import webdriver
 
 
 from pelican.utils import slugify
 
-def posts(cat):
-    db = TinyDB(f'db/{cat}.json')
-    contents = db.all()
+
+def posts():
+    full_db = TinyDB("db/_database.json")
+    contents = full_db.all()
     for i in contents:
-        if not os.path.exists(f'content/{cat}'):
-            os.mkdir(f'content/{cat}')
+        category = i.get("Category", '')
+        title = i.get("Title", '')
+        date = i.get("Date", '')
+        docker = i.get("Docker", '')
+        link = i.get("Link", '')
+        summary = i.get("Summary", '')
+        description = i.get("Description", '')
+        tags = i.get("Tags", [])
 
-        with open(f'content/{cat}/{i["title"]}.md', 'w') as file:
-            file.write(f"Title: {i['title']}\n")
-            file.write(f"Date: {datetime.now()}\n")
-            file.write(f"Category: {cat}\n")
+        if not os.path.exists(f"content/{category}"):
+            os.mkdir(f"content/{category}")
 
-            if i.get('tags') is not None:
-                file.write(f"Tags: {','.join(i['tags'])}\n")
+        with open(f'content/{category}/{title}.md', "w") as file:
+            file.write(f"Title: {title}\n")
+            file.write(f"Date: {date}\n")
+            file.write(f"Category: {category}\n")
 
-            if i.get('docker') is not None:
-                file.write(f"Docker: {i['docker']}\n")
-            
-            file.write(f"Link: {i['link']}\n")
-            
-            if i.get('description') is not None:
-                file.write(f"{i['description']}\n")
+            if len(tags) > 0:
+                file.write(f"Tags: {','.join(tags)}\n")
 
-def images(cat):
-    db = TinyDB(f'db/{cat}.json')
-    contents = db.all()
+            if docker != "":
+                file.write(f"Docker: {docker}\n")
+
+            if link != "":
+                file.write(f"Link: {link}\n")
+
+            if summary != "":
+                file.write(f"{summary}\n")
+
+            if description != "":
+                file.write(f"{description}\n")
+
+
+def images():
+    full_db = TinyDB("db/_database.json")
+    contents = full_db.all()
+    
+    options = webdriver.FirefoxOptions()
+    driver = webdriver.Remote(options=options)
+    driver.maximize_window()
+
+    if not os.path.exists("content/images"):
+        os.mkdir("content/images")
+
     for i in contents:
-        if not os.path.exists(f'content/images'):
-            os.mkdir(f'content/images')
-        response = requests.get(f"http://localhost:8050/render.jpeg?url={i['link']}&timeout=15")
-        
+        title = i.get("Title", '')
+        link = i.get("Link", '')
+        driver.get(link)
+
         settings = copy.deepcopy(DEFAULT_CONFIG)
 
         slug = slugify(
-            i['title'],
+            title,
             regex_subs=settings.get("SLUG_REGEX_SUBSTITUTIONS", []),
             preserve_case=settings.get("SLUGIFY_PRESERVE_CASE", False),
             use_unicode=settings.get("SLUGIFY_USE_UNICODE", False),
         )
         print(slug)
-        with open(f"content/images/{slug}.jpeg", "wb") as img:
-            img.write(response.content)
-
+        sleep(5)
+        driver.save_screenshot(f"content/images/{slug}.png")
+        print("=" * 50)
+    driver.quit()
 
 def build_categories():
-    files = os.listdir('db')
-    for f in files:
-        cat = f.replace('.json', '')
-        posts(cat)
+    posts()
+
 
 def build_images():
-    files = os.listdir('db')
-    for f in files:
-        cat = f.replace('.json', '')
-        images(cat)
+    images()

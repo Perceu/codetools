@@ -9,6 +9,10 @@
                 Consulte aqui uma base de recursos uteis para desenvolvedores no geral. Temos links para as mais
                 diferentes ferramentas.
             </p>
+            <p class="col-md-8 fs-4">
+                Atualmente temos <strong>{{articles | count}}</strong> documentos indexando ferramentas, artigos, canais do youtube que
+                auxilian os desenvolvedores.
+            </p>
         </div>
     </div>
     <div class="container" id="icon-grid">
@@ -19,7 +23,7 @@
                     <div class="row g-0">
                         {% if article.category != 'scripts'%}
                         <div class="col-md-4">
-                            <img src="/images/{{article.slug}}.jpeg" class="img-fluid rounded-start">
+                            <img src="/images/{{article.slug}}.png" class="img-fluid rounded-start">
                         </div>
                         {% endif %}
                         <div class="col-md-8">
@@ -37,14 +41,17 @@
                 <div class="text-end">
                     <nav aria-label="Page navigation">
                         <ul class="pagination">
-                            {% if articles_next_page %}
-                            <li class="page-item">
-                                <a class="page-link" href="/{{ articles_next_page.url }}"><< Ferramentas</a>
-                            </li>
-                            {% endif %}
                             {% if articles_previous_page %}
                             <li class="page-item">
-                                <a class="page-link" href="/{{ articles_previous_page.url }}">Ferramentas >></a>
+                                <a class="page-link" href="/{{ articles_previous_page.url }}">
+                                    Voltar
+                                </a>
+                            </li>
+                            {% endif %}
+                            {% if articles_next_page %}
+                            <li class="page-item">
+                                <a class="page-link" href="/{{ articles_next_page.url }}">
+                                    Outras Ferramentas </a>
                             </li>
                             {% endif %}
                         </ul>
