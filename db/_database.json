@@ -1660,6 +1660,86 @@
             "Author": "Perceu Bertoletti",
             "Summary": "Não esta achando algo? aprenda a pesquisar de formas diferentes",
             "Description": "Não esta achando algo? aprenda a pesquisar de formas diferentes, topico com diversas listas filtradas pela comunidade indexando os mais diversos recursos."
+        },
+        "119": {
+            "Title": "Chat gpt",
+            "Date": "2024-02-10T13:56:48.104503",
+            "Category": "ia",
+            "Tags": [
+                "inteligencia-artificial",
+                "llm"
+            ],
+            "Docker": "",
+            "Link": "https://chat.openai.com/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Modelo de linguagem natural de grande escala que ficou famoso",
+            "Description": "Modelo de linguagem natural de grande escala que ficou famoso."
+        },
+        "120": {
+            "Title": "CNCF - Cloud Native Computing Fundation",
+            "Date": "2024-02-10T13:56:48.104503",
+            "Category": "fundations",
+            "Tags": [],
+            "Docker": "",
+            "Link": "https://www.cncf.io/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Fundação que apoia soluções cloud native",
+            "Description": "Fundação que apoia soluções cloud native, uma parte da linux fundation legal acompanhar para ficar sempre antenado em novas soluções que podem mudar o mercado como o kubernets"
+        },
+        "121": {
+            "Title": "Linux Foundation",
+            "Date": "2024-02-10T13:56:48.104503",
+            "Category": "fundations",
+            "Tags": [],
+            "Docker": "",
+            "Link": "https://www.linuxfoundation.org",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Hub neutro para apoiar desenvolvedores e organizações que atuam com opensource",
+            "Description": "Hub neutro para apoiar desenvolvedores e organizações que atuam com opensource"
+        },
+        "122": {
+            "Title": "Apache Software Foundation",
+            "Date": "2024-02-10T13:56:48.104503",
+            "Category": "fundations",
+            "Tags": [],
+            "Docker": "",
+            "Link": "https://www.apache.org/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Hub neutro para apoiar desenvolvedores e organizações que atuam com opensource",
+            "Description": "Fundação que apoia soluções web, é bom acompanhar as soluções deles para ficar sempre antenado em novas soluções que podem mudar o mercado web"
+        },
+        "123": {
+            "Title": "Docker Hub",
+            "Date": "2024-02-10T13:56:48.104503",
+            "Category": "fundations",
+            "Tags": [],
+            "Docker": "",
+            "Link": "https://hub.docker.com/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Hub de imagens docker disponiveis para teste e utilização",
+            "Description": "Hub de imagens docker disponiveis para teste e utilização, O docker hub é um grande registry com muitas imagens feitas por diversos desenvolvedores, e disponiblizadas de forma publica"
+        },
+        "124": {
+            "Title": "PSF - Python Software Fondation",
+            "Date": "2024-02-10T13:56:48.104503",
+            "Category": "fundations",
+            "Tags": [],
+            "Docker": "",
+            "Link": "https://www.python.org/psf-landing/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Uma organização dedicada ao avanço da tecnologia python",
+            "Description": "A Python Software Foundation é uma organização dedicada ao avanço da tecnologia de código aberto relacionada à linguagem de programação Python."
+        },
+        "125": {
+            "Title": "The PHP Fondation",
+            "Date": "2024-02-10T13:56:48.104503",
+            "Category": "fundations",
+            "Tags": [],
+            "Docker": "",
+            "Link": "https://www.python.org/psf-landing/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Um coletivo de pessoas e organizações que dependem da linguagem PHP",
+            "Description": "A PHP Foundation é um coletivo de pessoas e organizações que dependem da linguagem PHP. Sua missão é garantir a prosperidade a longo prazo da linguagem PHP."
         }
     }
 }
