@@ -1,16 +1,11 @@
-Title: Script para converter CSV em JSON 
+Title: Parando dockers 
 Date: 2023-12-06 13:39:59.928309
 Category: scripts
-Summary: Script python para ler converter csv em json
+Summary: parando todos os docker do computador
 
 
-Script python para ler converter csv em json, pegando a primeira coluna como chave para os dados:
-
-```python
-def main():
-    print("hello world")
-
-if __name__=="__main__":
-    main()
+parando todos os docker do computador
+```shell
+docker stop $(docker ps -q)
 ```
 

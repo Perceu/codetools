@@ -1589,6 +1589,77 @@
             "Author": "Perceu Bertoletti",
             "Summary": "Alternativa ao google analitcs",
             "Description": "Alternativa ao google analitcs"
+        },
+        "114": {
+            "Title": "Espeak-ng",
+            "Date": "2024-02-10T13:56:48.104503",
+            "Category": "audio",
+            "Tags": [
+                "sintetizador",
+                "voz"
+            ],
+            "Docker": "",
+            "Link": "https://github.com/espeak-ng/espeak-ng",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Sintetizador de voz",
+            "Description": "Sintetizador de voz, bem legal para audios, [Docs](https://github.com/espeak-ng/espeak-ng/blob/master/docs/languages.md 'linguagens suportadas')."
+        },
+        "115": {
+            "Title": "terminalgif",
+            "Date": "2024-02-10T13:56:48.104503",
+            "Category": "toolbox",
+            "Tags": [
+                "gif",
+                "tutorial",
+                "images"
+            ],
+            "Docker": "",
+            "Link": "https://www.terminalgif.com/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Criador de gif para simular terminal",
+            "Description": "Criador de gif para simular terminal sem necessidade de instalar nada"
+        },
+        "116": {
+            "Title": "Htop",
+            "Date": "2024-02-10T13:56:48.104503",
+            "Category": "cli",
+            "Tags": [
+                "gerenciador-de-tarefas",
+                "command-line"
+            ],
+            "Docker": "",
+            "Link": "https://htop.dev/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "This is htop, a cross-platform interactive process viewer",
+            "Description": "This is htop, a cross-platform interactive process viewer. It is a text-mode application (for console or X terminals) and requires ncurses. "
+        },
+        "117": {
+            "Title": "Agarrharr cli list",
+            "Date": "2024-02-10T13:56:48.104503",
+            "Category": "another-lists",
+            "Tags": [
+                "outras-bases-de-dados",
+                "referencias"
+            ],
+            "Docker": "",
+            "Link": "https://github.com/agarrharr/awesome-cli-apps",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Lista de aplicativos de linha de comando interessantes",
+            "Description": "Lista de aplicativos de linha de comando interessantes, por que copiar se se pode so indexar :D"
+        },
+        "118": {
+            "Title": "awesome-list",
+            "Date": "2024-02-10T13:56:48.104503",
+            "Category": "topics",
+            "Tags": [
+                "github-topics",
+                ""
+            ],
+            "Docker": "",
+            "Link": "https://github.com/topics/awesome-list",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Não esta achando algo? aprenda a pesquisar de formas diferentes",
+            "Description": "Não esta achando algo? aprenda a pesquisar de formas diferentes, topico com diversas listas filtradas pela comunidade indexando os mais diversos recursos."
         }
     }
 }
