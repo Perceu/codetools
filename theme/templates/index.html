@@ -11,8 +11,9 @@
             </p>
             <p class="col-md-8 fs-4">
                 Atualmente temos <strong>{{articles | count}}</strong> documentos indexando ferramentas, artigos, canais
-                do youtube que
-                auxilian os desenvolvedores.
+                do youtube e listas feitas por outras pessoas. No intuito de auxiliar os desenvolvedores e usuarios
+                avançados a encontrar soluções para suas dificuldates, alem de sempre existir alternativas melhores que
+                possam ter recursos diferentes
             </p>
         </div>
     </div>
@@ -56,7 +57,7 @@
                             {% if articles_next_page %}
                             <li class="page-item">
                                 <a class="btn btn-sm btn-outline-success" href="/{{ articles_next_page.url }}">
-                                    Outras Ferramentas 
+                                    Outras Ferramentas
                                     <i class="bi bi-chevron-compact-right"></i>
                                 </a>
                             </li>
@@ -69,14 +70,16 @@
                 <h2>Categorias</h2>
                 <div>
                     {% for categoria, artigos in categories %}
-                    <a href="{{categoria.url}}" class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover badge rounded-pill text-bg-secondary">{{categoria|title}}</a>
+                    <a href="{{categoria.url}}"
+                        class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover badge rounded-pill text-bg-secondary">{{categoria|title}}</a>
                     {% endfor %}
                 </div>
                 <hr>
                 <h2>Tags</h2>
                 <div>
                     {% for tag, artigos in tags %}
-                    <a href="{{tag.url}}" class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover badge rounded-pill text-bg-secondary">{{tag|title}}</a>
+                    <a href="{{tag.url}}"
+                        class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover badge rounded-pill text-bg-secondary">{{tag|title}}</a>
                     {% endfor %}
                 </div>
             </div>
