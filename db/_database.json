@@ -1805,6 +1805,150 @@
             "Author": "Perceu Bertoletti",
             "Summary": "Lista de projetos open source para contribuir",
             "Description": "Lista de projetos open source para contribuir"
+        },
+        "131": {
+            "Title": "Selenoid",
+            "Date": "2024-03-24T15:00:00.000000",
+            "Category": "solutions",
+            "Tags": [
+                "cloud", "automation", "solutions"
+            ],
+            "Docker": "",
+            "Link": "https://aerokube.com/selenoid/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Solução de automação com kubernets",
+            "Description": "Solução de automação com kubernets"
+        },
+        "132": {
+            "Title": "Boot",
+            "Date": "2024-03-24T15:00:00.000000",
+            "Category": "solutions",
+            "Tags": [
+                "cloud", "automation", "solutions"
+            ],
+            "Docker": "",
+            "Link": "https://aerokube.com/boot/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Solução de automação com kubernets",
+            "Description": "Solução de automação com kubernets"
+        },
+        "133": {
+            "Title": "Moon-Cloud",
+            "Date": "2024-03-24T15:00:00.000000",
+            "Category": "solutions",
+            "Tags": [
+                "cloud", "automation", "solutions"
+            ],
+            "Docker": "",
+            "Link": "https://aerokube.com/moon-cloud/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Solução de automação com kubernets",
+            "Description": "Solução de automação com kubernets"
+        },
+        "134": {
+            "Title": "Moon",
+            "Date": "2024-03-24T15:00:00.000000",
+            "Category": "solutions",
+            "Tags": [
+                "cloud", "automation", "solutions"
+            ],
+            "Docker": "",
+            "Link": "https://aerokube.com/moon/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Solução de automação com kubernets",
+            "Description": "Solução de automação com kubernets"
+        },
+        "135": {
+            "Title": "Deno",
+            "Date": "2024-03-24T15:00:00.000000",
+            "Category": "languages",
+            "Tags": [
+                "javascript", "typescript", "runtime"
+            ],
+            "Docker": "",
+            "Link": "https://deno.com/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Javascript runtime",
+            "Description": "Javascript runtime"
+        },
+        "136": {
+            "Title": "Bun",
+            "Date": "2024-03-24T15:00:00.000000",
+            "Category": "languages",
+            "Tags": [
+                "javascript", "typescript", "runtime"
+            ],
+            "Docker": "",
+            "Link": "https://bun.sh/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Javascript runtime",
+            "Description": "Javascript runtime"
+        },
+        "137": {
+            "Title": "Node Js",
+            "Date": "2024-03-24T15:00:00.000000",
+            "Category": "languages",
+            "Tags": [
+                "javascript", "typescript", "runtime"
+            ],
+            "Docker": "https://hub.docker.com/_/node",
+            "Link": "https://nodejs.org/en",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Javascript runtime",
+            "Description": "Javascript runtime"
+        },
+        "138": {
+            "Title": "Python",
+            "Date": "2024-03-24T15:00:00.000000",
+            "Category": "languages",
+            "Tags": [
+                "runtime"
+            ],
+            "Docker": "https://hub.docker.com/_/python",
+            "Link": "https://www.python.org/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Python runtime",
+            "Description": "Python runtime"
+        },
+        "139": {
+            "Title": "PHP",
+            "Date": "2024-03-24T15:00:00.000000",
+            "Category": "languages",
+            "Tags": [
+                "runtime"
+            ],
+            "Docker": "https://hub.docker.com/_/php",
+            "Link": "https://www.php.net/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "php runtime",
+            "Description": "php runtime"
+        },
+        "140": {
+            "Title": "Rust",
+            "Date": "2024-03-24T15:00:00.000000",
+            "Category": "languages",
+            "Tags": [
+                "runtime"
+            ],
+            "Docker": "https://hub.docker.com/_/rust",
+            "Link": "https://www.rust-lang.org/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Rust runtime",
+            "Description": "Rust runtime"
+        },
+        "141": {
+            "Title": "Golang",
+            "Date": "2024-03-24T15:00:00.000000",
+            "Category": "languages",
+            "Tags": [
+                "runtime"
+            ],
+            "Docker": "https://hub.docker.com/_/golang",
+            "Link": "https://go.dev/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Go lang runtime",
+            "Description": "Go lang runtime"
         }
+
     }
 }
