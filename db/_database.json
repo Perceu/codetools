@@ -1796,9 +1796,9 @@
         "130": {
             "Title": "Lista Maravilhosa Open Source",
             "Date": "2024-03-24T15:00:00.000000",
-            "Category": "topics",
+            "Category": "another-lists",
             "Tags": [
-                "github-topics"
+                "lists", "topics"
             ],
             "Docker": "",
             "Link": "https://github.com/camilatigre/listamaravilhosaopensource",
