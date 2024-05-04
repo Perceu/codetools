@@ -1948,6 +1948,19 @@
             "Author": "Perceu Bertoletti",
             "Summary": "Go lang runtime",
             "Description": "Go lang runtime"
+        },
+        "142": {
+            "Title": "Nicegui",
+            "Date": "2024-03-25T15:00:00.000000",
+            "Category": "languages",
+            "Tags": [
+                "interface", "gui"
+            ],
+            "Docker": "",
+            "Link": "https://nicegui.io/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Interface simplificada para usar com python",
+            "Description": "Interface simplificada para usar com python"
         }
 
     }
