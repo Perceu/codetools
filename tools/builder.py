@@ -61,20 +61,22 @@ def images():
     for i in contents:
         title = i.get("Title", '')
         link = i.get("Link", '')
-        driver.get(link)
-
         settings = copy.deepcopy(DEFAULT_CONFIG)
-
         slug = slugify(
             title,
             regex_subs=settings.get("SLUG_REGEX_SUBSTITUTIONS", []),
             preserve_case=settings.get("SLUGIFY_PRESERVE_CASE", False),
             use_unicode=settings.get("SLUGIFY_USE_UNICODE", False),
         )
-        print(slug)
-        sleep(5)
-        driver.save_screenshot(f"content/images/{slug}.png")
-        print("=" * 50)
+        path_file = f"content/images/{slug}.png"
+        
+        if not os.path.exists(path_file):
+            driver.get(link)
+            sleep(5)
+            print(slug)
+            print("=" * 50)
+            driver.save_screenshot(f"content/images/{slug}.png")
+
     driver.quit()
 
 def build_categories():

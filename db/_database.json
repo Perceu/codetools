@@ -1961,6 +1961,118 @@
             "Author": "Perceu Bertoletti",
             "Summary": "Interface simplificada para usar com python",
             "Description": "Interface simplificada para usar com python"
+        },
+        "143": {
+            "Title": "Nocodb",
+            "Date": "2024-03-25T15:00:00.000000",
+            "Category": "databases",
+            "Tags": [
+                "interface", "gui"
+            ],
+            "Docker": "",
+            "Link": "https://nocodb.com/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Construa bancos de dados como planilhas",
+            "Description": "O NocoDB permite a construção de soluções de banco de dados sem código com facilidade de planilhas. Traga seu próprio banco de dados ou escolha o nosso! Milhões de filas? Não é um problema. Os seus dados. - As tuas regras. Você está no controle."
+        },
+        "144": {
+            "Title": "Cargo Bot",
+            "Date": "2024-03-25T15:00:00.000000",
+            "Category": "games",
+            "Tags": [
+                "games"
+            ],
+            "Link": "https://i4ds.github.io/CargoBot/?state=1",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Game para ajudar a programar",
+            "Description": ""
+
+        },
+        "145": {
+            "Title": "Flukeout (css diner)",
+            "Date": "2024-03-25T15:00:00.000000",
+            "Category": "games",
+            "Tags": [
+                "games"
+            ],
+            "Link": "https://flukeout.github.io/#",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Game para ajudar a programar",
+            "Description": ""
+        },
+        "146": {
+            "Title": "Flexbox Froggy",
+            "Date": "2024-03-25T15:00:00.000000",
+            "Category": "games",
+            "Tags": [
+                "games"
+            ],
+            "Link": "https://flexboxfroggy.com/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Game para ajudar a programar",
+            "Description": ""
+        },
+        "147": {
+            "Title": "Elevator Saga",
+            "Date": "2024-03-25T15:00:00.000000",
+            "Category": "games",
+            "Tags": [
+                "games"
+            ],
+            "Link": "https://play.elevatorsaga.com/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Game para ajudar a programar",
+            "Description": ""
+        },
+        "148": {
+            "Title": "Flexbox Defense",
+            "Date": "2024-03-25T15:00:00.000000",
+            "Category": "games",
+            "Tags": [
+                "games"
+            ],
+            "Link": "http://www.flexboxdefense.com/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Game para ajudar a programar",
+            "Description": ""
+        },
+        "149": {
+            "Title": "Vim adventures",
+            "Date": "2024-03-25T15:00:00.000000",
+            "Category": "games",
+            "Tags": [
+                "games"
+            ],
+            "Link": "https://vim-adventures.com/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Game para ajudar a programar",
+            "Description": ""
+        },
+        "150": {
+            "Title": "n8n",
+            "Date": "2024-03-26T15:00:00.000000",
+            "Category": "workflow",
+            "Tags": [
+                "workflow"
+            ],
+            "Link": "https://n8n.io",
+            "Docker": "https://docs.n8n.io/hosting/installation/docker/",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Ferramenta de workflow com diversas integrações inclusive MCP de diversas IAs",
+            "Description": "Ferramenta para criar workflows que integram diversas ferramentas atravez de apis e terminais"
+        },
+        "151": {
+            "Title": "Node Red",
+            "Date": "2024-03-26T15:00:00.000000",
+            "Category": "workflow",
+            "Tags": [
+                "workflow"
+            ],
+            "Link": "https://nodered.org/",
+            "Docker": "https://nodered.org/docs/getting-started/local#installing-with-docker",
+            "Author": "Perceu Bertoletti",
+            "Summary": "Ferramenta low code para criar um workflow de eventos que podem ser tratado de varias formas via as apis e os hooks disponiveis",
+            "Description": "Ferramenta low code para criar um workflow de eventos que podem ser tratado de varias formas via as apis e os hooks disponiveis"
         }
 
     }
