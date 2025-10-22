@@ -18,7 +18,10 @@
                 <div class="grid gap-4">
                     {{article.content}}
                 </div>
-                <img src="/images/{{article.slug}}.png" class="img-fluid rounded-start">
+                {% if article.category != 'scripts' %}
+                    <img src="/images/{{article.slug}}.png" class="img-fluid rounded-start">
+                {% endif %}
+                
             </div>
             <div class="col">
                 <h2 class="pb-2 border-bottom">Links</h2>
