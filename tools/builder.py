@@ -42,8 +42,7 @@ def posts():
 
             if summary != "":
                 file.write(f"{summary}\n")
-
-            if description != "":
+            elif description != "":
                 file.write(f"{description}\n")
 
 
